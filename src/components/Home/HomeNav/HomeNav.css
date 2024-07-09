@@ -1,0 +1,25 @@
+.homeNavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px;
+    background-color: #D9D9D9;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.homeNav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.homeLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}

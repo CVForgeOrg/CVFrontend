@@ -1,0 +1,11 @@
+.signUpContainer {
+    background: #282c34;
+    height: 100vh;
+}
+
+.signUpTitle {
+    color: #61dafb;
+    font-size: 4em;
+    margin-bottom: 0;
+
+}
