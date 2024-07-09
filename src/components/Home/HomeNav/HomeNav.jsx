@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "../../../reusable/Button/Button";
+import Button from "../../../reusable/Button/Button.jsx";
 import {useNavigate} from "react-router-dom";
 import "./HomeNav.css";
 const HomeNav = () => {

@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import HomeNav from "../Home/HomeNav/HomeNav";
 import './SignUp.css';
-import Input from "../../reusable/Input/Input";
-import Button from "../../reusable/Button/Button";
+import Input from "../../reusable/Input/Input.jsx";
+import Button from "../../reusable/Button/Button.jsx";
 const SignUp = () => {
     const [signUpData, setSignUpData] = useState({
         name: "",
