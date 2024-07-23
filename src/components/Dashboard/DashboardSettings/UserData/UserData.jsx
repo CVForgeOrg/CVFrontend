@@ -5,7 +5,7 @@ import {apiPost} from "../../../../Api.js";
 
 const UserData = () => {
     const [formData, setFormData] = useState({
-        emailAddress: '',
+        EmailAddress: '',
         PhoneNumber: '',
         GitHubLink: '',
         LinkedInLink: '',
@@ -38,7 +38,7 @@ const UserData = () => {
             <form onSubmit={handleSubmit}>
                 <label className={"UserDataLabel"}>
                     email Address:
-                    <input type="text" name="emailAddress" value={formData.emailAddress} onChange={handleChange} className={"UserDataInput"}/>
+                    <input type="text" name="EmailAddress" value={formData.EmailAddress} onChange={handleChange} className={"UserDataInput"}/>
                 </label>
                 <label className={"UserDataLabel"} >
                     Phone Number:
